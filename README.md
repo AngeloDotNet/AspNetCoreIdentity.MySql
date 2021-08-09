@@ -14,8 +14,6 @@ But it's been updated to use MySql.
    dotnet ef migrations add InitialMigration
    ```
 
-> **Please note** This project is using an **alpha release** of `Pomelo.EntityFrameworkCore.MySql`. Wait for an updated, stable version of this package before moving to production (or downgrade EFCore and the NuGet package to versions 3.x).
-
 # Getting Started
  1. Create a MySql database;
  2. Update the connection string in the `appsettings.json` file;
